@@ -41,3 +41,6 @@ class QuizGame:
             # if the file doesn't exist, show an error message and exit
             print("❌ Quiz file not found! Please create the quiz first.")
             return False
+
+    # method to display a single question and check user's answer
+    def ask_question(self, number, data):
