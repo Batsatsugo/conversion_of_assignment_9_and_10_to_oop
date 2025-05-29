@@ -14,4 +14,5 @@ class QuizGame:
 
         # attempt to load quiz questions
         if not self.load_questions():
-            
+            return                  # exit if questions couldn't be loaded
+        
