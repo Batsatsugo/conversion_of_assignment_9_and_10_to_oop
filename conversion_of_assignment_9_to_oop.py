@@ -40,3 +40,9 @@ class QuizCreator:
         while correct_answer not in choices:
             print("Invalid choice. Please enter a valid option (a, b, c, or d).")
             correct_answer = input("Enter the correct answer: ").lower()
+
+        return {
+            "question": question_text,
+            "choices": choices,
+            "answer": correct_answer
+        }
