@@ -6,4 +6,7 @@ class QuizCreator:
     def __init__(self, filename="the_ultimate_quiz_data.txt"):
         self.filename = filename
 
+    # main method to run the quiz creator interface
     def run(self):
+        print("\n🔥 Welcome to the Ultimate Quiz Creator! 🔥\n")
+        
