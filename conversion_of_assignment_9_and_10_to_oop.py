@@ -14,3 +14,4 @@ class QuizCreator:
         with open(self.filename, "a") as file:
             # loop to allow multiple questions to be added
             while True:
+                question_data = self.create_question()
