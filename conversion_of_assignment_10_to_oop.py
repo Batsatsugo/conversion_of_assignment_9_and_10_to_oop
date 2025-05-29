@@ -20,3 +20,4 @@ class QuizGame:
 
         # Loop through each question with its number
         for i, question_data in enumerate(self.questions, 1):
+            self.ask_question(i, question_data)
