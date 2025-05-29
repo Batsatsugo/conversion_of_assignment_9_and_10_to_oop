@@ -17,3 +17,6 @@ class QuizGame:
             return                  # exit if questions couldn't be loaded
 
         total = len(self.questions)
+
+        # Loop through each question with its number
+        for i, question_data in enumerate(self.questions, 1):
