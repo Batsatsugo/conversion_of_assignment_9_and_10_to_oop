@@ -54,3 +54,5 @@ class QuizGame:
 
         # check if the user's answer matches the correct one
         if user_answer == data["answer"]:
+            print("✅ Correct!")  
+            self.score += 1
