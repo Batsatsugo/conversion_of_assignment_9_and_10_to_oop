@@ -51,3 +51,6 @@ class QuizGame:
             print(f"  {key.upper()}. {value}")
 
         user_answer = input("Your answer (a, b, c, or d): ").lower()
+
+        # check if the user's answer matches the correct one
+        if user_answer == data["answer"]:
