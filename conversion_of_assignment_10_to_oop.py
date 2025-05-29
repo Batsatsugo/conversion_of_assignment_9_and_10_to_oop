@@ -11,3 +11,7 @@ class QuizGame:
     # method to start the quiz
     def start(self):
         print("\n🧠 Welcome to The Ultimate Quiz Game! 🧠\n")
+
+        # attempt to load quiz questions
+        if not self.load_questions():
+            
