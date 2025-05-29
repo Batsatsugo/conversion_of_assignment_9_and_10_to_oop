@@ -10,4 +10,5 @@ class QuizCreator:
     def run(self):
         print("\n🔥 Welcome to the Ultimate Quiz Creator! 🔥\n")
 
+        # open the file in append mode to save questions
         with open(self.filename, "a") as file:
