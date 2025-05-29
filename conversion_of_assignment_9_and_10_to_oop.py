@@ -15,3 +15,4 @@ class QuizCreator:
             # loop to allow multiple questions to be added
             while True:
                 question_data = self.create_question()
+                file.write(json.dumps(question_data) + "\n")
