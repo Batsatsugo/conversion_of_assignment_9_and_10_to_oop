@@ -26,3 +26,4 @@ class QuizCreator:
                     break
 
     def create_question(self):
+        question_text = input("\nEnter your question: ")
