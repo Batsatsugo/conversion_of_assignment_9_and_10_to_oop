@@ -23,3 +23,6 @@ class QuizGame:
             self.ask_question(i, question_data)
 
         print(f"\n🎉 Quiz completed! You scored {self.score}/{total}.")
+
+    # method to load quiz questions from a file
+    def load_questions(self):
