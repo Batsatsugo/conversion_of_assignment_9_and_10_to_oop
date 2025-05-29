@@ -30,3 +30,5 @@ class QuizGame:
             # try to open the quiz file in read mode
             with open(self.filename, "r") as file:
                 lines = file.readlines()
+                # loop through each line and parse it as JSON
+                for i, line in enumerate(lines, 1):
