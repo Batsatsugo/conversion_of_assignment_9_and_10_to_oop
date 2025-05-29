@@ -45,3 +45,7 @@ class QuizGame:
     # method to display a single question and check user's answer
     def ask_question(self, number, data):
         print(f"\nQ{number}: {data['question']}")
+
+        # loop through each choice and print it with its letter
+        for key, value in data['choices'].items():
+            print(f"  {key.upper()}. {value}")
