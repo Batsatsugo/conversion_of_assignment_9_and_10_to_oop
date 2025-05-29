@@ -28,3 +28,4 @@ class QuizCreator:
     def create_question(self):
         # prompt user to enter the question text
         question_text = input("\nEnter your question: ")
+        choices = {}
