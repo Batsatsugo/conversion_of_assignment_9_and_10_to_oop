@@ -20,6 +20,7 @@ class QuizCreator:
 
                 # ask user if they want to add another question
                 another = input("\nDo you want to add another question? (yes/no): ").strip().lower()
+                # if user does not type 'yes', break the loop and end
                 if another != "yes":
                     print(f"\n✅ All questions have been saved to '{self.filename}'. ✅")
                     break
