@@ -44,3 +44,4 @@ class QuizGame:
 
     # method to display a single question and check user's answer
     def ask_question(self, number, data):
+        print(f"\nQ{number}: {data['question']}")
