@@ -41,6 +41,7 @@ class QuizCreator:
             print("Invalid choice. Please enter a valid option (a, b, c, or d).")
             correct_answer = input("Enter the correct answer: ").lower()
 
+        # return the structured question data as a dictionary
         return {
             "question": question_text,
             "choices": choices,
