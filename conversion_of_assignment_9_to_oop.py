@@ -30,3 +30,6 @@ class QuizCreator:
         question_text = input("\nEnter your question: ")
         # initialize an empty dictionary to store multiple-choice options
         choices = {}
+
+        for option in ['a', 'b', 'c', 'd']:
+            choices[option] = input(f"Enter choice {option.upper()}: ")
