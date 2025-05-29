@@ -34,3 +34,5 @@ class QuizCreator:
         # loop through choice labels a–d to collect each option from the user
         for option in ['a', 'b', 'c', 'd']:
             choices[option] = input(f"Enter choice {option.upper()}: ")
+
+        correct_answer = input("Enter the correct answer (a, b, c, or d): ").lower()
