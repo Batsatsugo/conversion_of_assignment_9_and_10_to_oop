@@ -26,3 +26,6 @@ class QuizGame:
 
     # method to load quiz questions from a file
     def load_questions(self):
+        try:
+            # try to open the quiz file in read mode
+            with open(self.filename, "r") as file:
