@@ -7,3 +7,6 @@ class QuizGame:
         self.filename = filename    # File where quiz questions are stored
         self.score = 0              # Initialize score to 0
         self.questions = []         # List to store all loaded quiz questions
+
+    # method to start the quiz
+    def start(self):
