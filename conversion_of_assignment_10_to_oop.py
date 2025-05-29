@@ -49,3 +49,5 @@ class QuizGame:
         # loop through each choice and print it with its letter
         for key, value in data['choices'].items():
             print(f"  {key.upper()}. {value}")
+
+        user_answer = input("Your answer (a, b, c, or d): ").lower()
