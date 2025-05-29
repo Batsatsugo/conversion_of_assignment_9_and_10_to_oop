@@ -37,3 +37,6 @@ class QuizCreator:
 
         # prompt user to enter the correct answer and must be a, b, c, d
         correct_answer = input("Enter the correct answer (a, b, c, or d): ").lower()
+        while correct_answer not in choices:
+            print("Invalid choice. Please enter a valid option (a, b, c, or d).")
+            correct_answer = input("Enter the correct answer: ").lower()
