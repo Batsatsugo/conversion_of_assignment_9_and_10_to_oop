@@ -18,5 +18,5 @@ class QuizCreator:
                 # convert the question dictionary to a JSON string and write to file
                 file.write(json.dumps(question_data) + "\n")
 
-
+                # ask user if they want to add another question
                 another = input("\nDo you want to add another question? (yes/no): ").strip().lower()
