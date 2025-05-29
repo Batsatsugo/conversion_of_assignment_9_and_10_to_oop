@@ -35,4 +35,5 @@ class QuizCreator:
         for option in ['a', 'b', 'c', 'd']:
             choices[option] = input(f"Enter choice {option.upper()}: ")
 
+        # prompt user to enter the correct answer and must be a, b, c, d
         correct_answer = input("Enter the correct answer (a, b, c, or d): ").lower()
