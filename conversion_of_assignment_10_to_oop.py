@@ -32,3 +32,9 @@ class QuizGame:
                 lines = file.readlines()
                 # loop through each line and parse it as JSON
                 for i, line in enumerate(lines, 1):
+                    try:
+                        self.questions.append(json.loads(line))  # add valid question to list
+                    except json.JSONDecodeError:
+                        print(f"Skipping invalid question format on line {i}")  # handle bad data
+            return True  # Indicate success
+        except FileNotFoundError:
