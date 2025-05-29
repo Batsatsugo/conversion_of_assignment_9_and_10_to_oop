@@ -47,3 +47,7 @@ class QuizCreator:
             "choices": choices,
             "answer": correct_answer
         }
+
+if __name__ == "__main__":
+    quiz = QuizCreator()
+    quiz.run()
