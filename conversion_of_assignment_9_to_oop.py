@@ -31,5 +31,6 @@ class QuizCreator:
         # initialize an empty dictionary to store multiple-choice options
         choices = {}
 
+        # loop through choice labels a–d to collect each option from the user
         for option in ['a', 'b', 'c', 'd']:
             choices[option] = input(f"Enter choice {option.upper()}: ")
