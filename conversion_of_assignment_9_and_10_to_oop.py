@@ -12,5 +12,5 @@ class QuizCreator:
 
         # open the file in append mode to save questions
         with open(self.filename, "a") as file:
-            # loop to allow multiples questions to be added
+            # loop to allow multiple questions to be added
             while True:
