@@ -59,3 +59,7 @@ class QuizGame:
         else:
             correct = data['choices'][data['answer']]
             print(f"❌ Incorrect. The correct answer was: {data['answer'].upper()} - {correct}")
+
+if __name__ == "__main__":
+    game = QuizGame()  
+    game.start()
