@@ -9,4 +9,5 @@ class QuizCreator:
     # main method to run the quiz creator interface
     def run(self):
         print("\n🔥 Welcome to the Ultimate Quiz Creator! 🔥\n")
-        
+
+        with open(self.filename, "a") as file:
