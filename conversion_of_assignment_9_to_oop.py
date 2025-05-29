@@ -24,3 +24,5 @@ class QuizCreator:
                 if another != "yes":
                     print(f"\n✅ All questions have been saved to '{self.filename}'. ✅")
                     break
+
+    def create_question(self):
