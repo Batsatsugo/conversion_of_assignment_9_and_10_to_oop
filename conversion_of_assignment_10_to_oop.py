@@ -38,3 +38,6 @@ class QuizGame:
                         print(f"Skipping invalid question format on line {i}")  # handle bad data
             return True  # Indicate success
         except FileNotFoundError:
+            # if the file doesn't exist, show an error message and exit
+            print("❌ Quiz file not found! Please create the quiz first.")
+            return False
