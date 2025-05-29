@@ -29,3 +29,4 @@ class QuizGame:
         try:
             # try to open the quiz file in read mode
             with open(self.filename, "r") as file:
+                lines = file.readlines()
